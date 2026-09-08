@@ -1,8 +1,12 @@
-num = int(input("Enter a number: "))
+# Take a number from the user
+n = int(input("Enter a number: "))
 
-factorial = 1
+# Initialize factorial value
+fact = 1
 
-for i in range(1, num + 1):
-    factorial = factorial * i
+# Calculate factorial using a loop
+for i in range(1, n + 1):
+    fact = fact * i
 
-print("Factorial of", num, "is", factorial)
+# Display the factorial
+print("Factorial =", fact)
